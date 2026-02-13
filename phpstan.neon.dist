@@ -1,0 +1,10 @@
+# PHPStan - Laravel E-Commerce API
+# Run: ./vendor/bin/phpstan analyse
+includes:
+    - vendor/laravel/framework/phpstan.neon
+parameters:
+    level: 5
+    paths:
+        - app
+    excludePaths:
+        - app/Exceptions/*

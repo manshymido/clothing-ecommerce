@@ -1,0 +1,14 @@
+!backend
+!frontend
+!database
+!documentation
+!scripts
+!tests
+!tools
+!config
+!logs
+!temp
+!node_modules
+!dist
+!build
+!public
