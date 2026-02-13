@@ -48,6 +48,8 @@ jobs:
         env:
           DB_CONNECTION: sqlite
           DB_DATABASE: ':memory:'
+          # 32-byte key (aes-256-cbc); avoids cipher error when .env not loaded in step
+          APP_KEY: base64:YWJjZGVmZ2hpamtsbW5vcHFyc3R1dnd4eXowMTIzNDU=
 
   phpstan:
     runs-on: ubuntu-latest
