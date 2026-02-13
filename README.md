@@ -2,6 +2,10 @@
 
 REST API for a full e-commerce platform: products, categories, orders, payments (Stripe, PayPal), auth, and admin operations.
 
+**Repository:** [github.com/manshymido/clothing-ecommerce](https://github.com/manshymido/clothing-ecommerce)
+
+**Branches:** `main` (production-ready), `develop` (integration). Open PRs into `develop`; see [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ---
 
 ## Tech Stack
@@ -27,7 +31,7 @@ See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for full architecture and conve
 
 ```bash
 # Clone and enter project
-git clone <repo-url> clothing && cd clothing
+git clone https://github.com/manshymido/clothing-ecommerce.git clothing && cd clothing
 
 # Install dependencies
 composer install
