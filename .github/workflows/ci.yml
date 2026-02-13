@@ -48,7 +48,6 @@ jobs:
         env:
           DB_CONNECTION: sqlite
           DB_DATABASE: ':memory:'
-          APP_KEY: base64:2fl+Ktvk6xQqL3y2J3J3J3J3J3J3J3J3J3J3J3J3J3J3J=
 
   phpstan:
     runs-on: ubuntu-latest
